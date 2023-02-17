@@ -1,0 +1,26 @@
+.detailContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.charInfo {
+    color: white;
+    padding: 20px;
+}
+
+.charImg {
+    width: 22%;
+    height: 80%;
+    border: solid darkgrey;
+}
+
+.name {
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.restInfo {
+    text-align: left;
+}

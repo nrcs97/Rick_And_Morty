@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: darkgray;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(32,23,75);
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    margin-top: 7%;
+    color: white;
+}
+
+.mainImg {
+    align-self: center;
+    width: 70%;
+    height: 27%;
+}
+
+.inputs {
+    width: 180px;
+    align-self: center;
+    border-radius: 5px;
+    border-color: darkgray;
+}
+
+.labels {
+    font-family: Arial;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    margin-top: 2em;
+    font-weight:bold;
+    color: white;
+    border-radius: 5px;
+    border-color: darkgray;
+    background-color: rgb(93,207,38);
+    align-self: center;
+}
+
+.error {
+    font-size: smaller;
+    color: rgb(202, 80, 80);
+}
+
+.warning {
+    border-color: rgb(202, 80, 80);
+}
